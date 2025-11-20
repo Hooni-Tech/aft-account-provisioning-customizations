@@ -7,3 +7,4 @@ resource "aws_sfn_state_machine" "aft_account_provisioning_customizations" {
   definition = templatefile("${path.module}/states/customizations.asl.json", {})
 }
 
+
